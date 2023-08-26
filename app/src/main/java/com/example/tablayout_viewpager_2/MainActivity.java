@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.addFrag(new Tab3Fragment(), "Tab3");
         viewPagerAdapter.addFrag(new Tab4Fragment(), "Tab4");
         viewPager.setAdapter(viewPagerAdapter);
-        viewPager.setOffscreenPageLimit(0);
+        viewPager.setOffscreenPageLimit(1);
         tabLayout.setupWithViewPager(viewPager);
     }
 }
